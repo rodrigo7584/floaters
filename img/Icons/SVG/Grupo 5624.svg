@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="68" viewBox="0 0 65 68">
+  <g id="Grupo_5624" data-name="Grupo 5624" transform="translate(-370 -71)">
+    <g id="Retângulo_124" data-name="Retângulo 124" transform="translate(370 71)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.65">
+      <rect width="65" height="68" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="64" height="67" rx="9.5" fill="none"/>
+    </g>
+    <path id="Icon_ionic-md-menu" data-name="Icon ionic-md-menu" d="M4.5,27.157H31.735V24.13H4.5Zm0-7.565H31.735V16.565H4.5ZM4.5,9v3.026H31.735V9Z" transform="translate(383.656 87.217)" fill="#4264a9"/>
+  </g>
+</svg>
