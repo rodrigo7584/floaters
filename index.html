@@ -17,20 +17,26 @@
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-4 d-flex align-items-center justify-content-start">
+          <div
+            class="col-3 col-sm-4 order-3 order-sm-1 d-flex align-items-center justify-content-end justify-content-sm-start"
+          >
             <button class="btn-menu">
               <div></div>
               <div></div>
               <div></div>
             </button>
           </div>
-          <div class="col-4 d-flex align-items-center justify-content-center">
+          <div
+            class="col-8 col-sm-4 order-2 order-sm-2 d-flex align-items-center justify-content-center"
+          >
             <a href="#"
               ><img src="./img/logo.svg" alt="logo floaters" class="brand"
             /></a>
           </div>
-          <div class="col-4 d-flex align-items-center justify-content-end">
-            <ul class="user-menu">
+          <div
+            class="col-1 col-sm-4 order-1 order-sm-3 d-flex align-items-center justify-content-end"
+          >
+            <ul class="user-menu user-menu-desktop">
               <li>
                 <a href="#"><img src="./img/icon-user.svg" alt="icon" /></a>
               </li>
@@ -49,10 +55,24 @@
       </div>
       <nav>
         <div class="container">
-          <ul>
+          <ul class="menu">
             <li><a href="#">lorem</a></li>
             <li><a href="#">lorem</a></li>
             <li><a href="#">lorem</a></li>
+          </ul>
+          <ul class="user-menu user-menu-mobile">
+            <li>
+              <a href="#"><img src="./img/icon-user.svg" alt="icon" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./img/icon-heart.svg" alt="icon" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./img/icon-bag.svg" alt="icon" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./img/icon-search.svg" alt="icon" /></a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -67,10 +87,10 @@
         </div>
       </div>
     </section>
-    <section class="benefits py-5">
+    <section class="benefits py-1 py-sm-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-11 col-lg-9">
+          <div class="col-12 col-md-11 col-lg-9">
             <div class="row text-center">
               <div class="col-4">
                 <img src="./img/icon-leaf.svg" alt="" />
@@ -144,7 +164,7 @@
             </p>
             <a class="btn-blue" href="#">About Us</a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 py-5 py-md-0">
             <img class="img-fluid" src="./img/beach.png" alt="" />
           </div>
         </div>
@@ -154,7 +174,7 @@
       <h2 class="title text-center">Our Product</h2>
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-5">
+          <div class="col-md-5">
             <h3>Lorem Ipsum</h3>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -162,21 +182,21 @@
               quae ab illo inventore veritatis et quasi architecto beatae vitae
             </p>
             <div class="row text-center benefits">
-              <div class="col-md-6 col-lg-4">
+              <div class="col-4 col-md-6 col-lg-4">
                 <img src="./img/icon-leaf.svg" alt="" />
                 <p>
                   Eco-friendly <br />
                   material
                 </p>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div class="col-4 col-md-6 col-lg-4">
                 <img src="./img/icon-recycle.svg" alt="" />
                 <p>
                   Recyclable <br />
                   material
                 </p>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div class="col-4 col-md-6 col-lg-4">
                 <img src="./img/icon-world.svg" alt="" />
                 <p>
                   Waste reduction through <br />
@@ -184,14 +204,14 @@
                   and right foot
                 </p>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div class="col-4 col-md-6 col-lg-4">
                 <img src="./img/icon-arrow-up-down.svg" alt="" />
                 <p>
                   Comfortable in and <br />
                   out in both directions
                 </p>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div class="col-4 col-md-6 col-lg-4">
                 <img src="./img/icon-feet.svg" alt="" />
                 <p>
                   Keep feet in position <br />
@@ -199,7 +219,7 @@
                   flip-flops
                 </p>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div class="col-4 col-md-6 col-lg-4">
                 <img src="./img/icon-fall.svg" alt="" />
                 <p>
                   No slipping <br />
@@ -208,7 +228,7 @@
               </div>
             </div>
           </div>
-          <div class="col-7">
+          <div class="col-md-7">
             <div class="product-details">
               <div class="detail detail-1">
                 <button class="btn-details">+</button>
@@ -259,11 +279,11 @@
     <section class="gallery-video">
       <div class="container">
         <div class="row">
-          <div class="col-6 product-videos">
+          <div class="col-md-6 product-videos">
             <h2>Product Vídeo</h2>
             <img class="img-fluid" src="./img/beach.png" alt="" />
           </div>
-          <div class="col product-gallery">
+          <div class="col-md-6 product-gallery">
             <h2>Product Gallery</h2>
             <div class="row">
               <div class="col-4">
@@ -288,10 +308,10 @@
     <section class="spotlight py-5">
       <div class="container">
         <div class="row">
-          <div class="col-6 spotlight-1">
+          <div class="col-sm-6 spotlight-1 py-3 py-sm-0">
             <img class="img-fluid" src="./img/spotlight1.png" alt="" />
           </div>
-          <div class="col-6 spotlight-2">
+          <div class="col-sm-6 spotlight-2">
             <img class="img-fluid" src="./img/spotlight2.png" alt="" />
           </div>
         </div>
@@ -322,15 +342,21 @@
     <section class="extra-information">
       <div class="container">
         <div class="row">
-          <div class="col-4 d-flex align-items-center justify-content-start">
+          <div
+            class="col-sm-4 d-flex align-items-center justify-content-center justify-content-sm-start py-2"
+          >
             <img src="./img/icon-european.svg" alt="" />
             <p>Made in Europe</p>
           </div>
-          <div class="col-4 d-flex align-items-center justify-content-center">
+          <div
+            class="col-sm-4 d-flex align-items-center justify-content-center justify-content-sm-center py-2"
+          >
             <img src="./img/icon-credit-card.svg" alt="" />
             <p>Pay with Card</p>
           </div>
-          <div class="col-4 d-flex align-items-center justify-content-end">
+          <div
+            class="col-sm-4 d-flex align-items-center justify-content-center justify-content-sm-end py-2"
+          >
             <img src="./img/icon-globe.svg" alt="" />
             <p>Delivery all Europe</p>
           </div>
@@ -339,8 +365,8 @@
     </section>
     <footer>
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 col-lg-4">
+        <div class="row align-items-center justify-content-sm-center">
+          <div class="col-sm-10 col-md-6 col-lg-4 py-4 py-md-0">
             <div class="box-blue">
               <div class="row">
                 <div class="col-12">
@@ -362,7 +388,7 @@
           </div>
           <div class="col-md-6 offset-lg-1 col-lg-4">
             <div class="row">
-              <div class="col-4">
+              <div class="col-6 col-sm-4 order-1 order-sm-1 py-4 py-md-0">
                 <h6>MAIN PAGES</h6>
                 <ul>
                   <li><a href="#">Home Page</a></li>
@@ -370,15 +396,15 @@
                   <li><a href="#">My Account</a></li>
                 </ul>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4 order-3 order-sm-2 py-4 py-md-0">
                 <h6>POLICY</h6>
-                <ul>
+                <ul class="policy">
                   <li><a href="#">Terms of Usage</a></li>
                   <li><a href="#">Privacy Policy</a></li>
                   <li><a href="#">Return Policy</a></li>
                 </ul>
               </div>
-              <div class="col-4">
+              <div class="col-6 col-sm-4 order-2 order-sm-3 py-4 py-md-0">
                 <h6>CATEGORIES</h6>
                 <ul>
                   <li><a href="#">Swim & Beach</a></li>

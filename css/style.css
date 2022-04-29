@@ -111,6 +111,9 @@ header ul.user-menu li a img {
   height: 20px;
   margin: 5px;
 }
+header ul.user-menu-mobile {
+  display: none;
+}
 section.get-now h1 {
   margin-bottom: 50px;
 }
@@ -152,11 +155,11 @@ section.our-product .product-details .detail-1 {
   top: 68%;
 }
 section.our-product .product-details .detail-2 {
-  left: calc(45% - 250px);;
+  left: calc(45% - 250px);
   top: 15%;
 }
 section.our-product .product-details .detail-3 {
-  left: calc(70% - 250px);;
+  left: calc(70% - 250px);
   top: 50%;
 }
 section.our-product .product-details .detail-4 {
@@ -257,5 +260,98 @@ footer li {
 @media screen and (max-width: 767px) {
   section.our-history {
     text-align: center;
+  }
+  section.spotlight img {
+    height: 200px;
+  }
+  section.our-product .product-details .detail.detail-1 {
+    justify-items: left;
+  }
+  section.our-product .product-details .detail.detail-1 button {
+    margin-left: 0px;
+  }
+  section.our-product .product-details .detail-1 {
+    left: 20%;
+  }
+}
+@media screen and (max-width: 577px) {
+  p {
+    font-size: 12px;
+  }
+  header ul.menu {
+    display: grid;
+    justify-content: center;
+  }
+  header nav.ativo {
+    height: calc(100vh);
+    bottom: -100vh;
+  }
+  header nav {
+    align-items: start;
+    justify-content: center;
+  }
+  header ul.user-menu-desktop {
+    display: none;
+  }
+  header ul.user-menu-mobile {
+    display: flex;
+    justify-content: center;
+  }
+  header ul.user-menu-mobile img {
+    filter: brightness(0.3);
+  }
+  section.benefits img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  section.benefits p {
+    font-size: 9px;
+  }
+  section.our-product .benefits p {
+    font-size: 9px;
+  }
+  section.our-product {
+    text-align: center;
+  }
+  section.our-product .product-details .detail.detail-2 {
+    left: calc(80% - 250px);
+    justify-items: center;
+  }
+  section.our-product .product-details .detail.detail-2.ativo button {
+    margin-left: 0px;
+  }
+  section.our-product .product-details .detail.detail-2 button {
+    margin-left: 115px;
+  }
+  section.newsletter form input {
+    padding: 10px 10px;
+  }
+  section.newsletter form .btn-blue {
+    padding: 10px 30px;
+  }
+  section.spotlight img {
+    height: auto;
+  }
+  section.extra-information {
+    padding: 0px 0px;
+  }
+  section.extra-information div:nth-child(2) {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: none;
+    border-right: none;
+  }
+  footer ul.policy {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn-blue {
+    padding: 10px 10px;
+    width: 100%;
+  }
+  section.newsletter form .btn-blue {
+    padding: 10px 15px;
   }
 }
