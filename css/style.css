@@ -17,8 +17,11 @@
 body {
   font-family: pala;
   color: #515151;
-  background-color: bisque;
+  background: url('../img/fundo3.png');
+  background-size: 100% auto;
+  /* background-color: bisque; */
 }
+
 button {
   border: none;
   background: unset;
